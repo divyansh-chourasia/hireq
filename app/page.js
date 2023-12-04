@@ -23,6 +23,7 @@ export default function Home() {
       <Testimonials />
       <DontMissOut />
       <Footer/>
+    
     </main>
   );
 }

@@ -8,19 +8,19 @@ const Hero = () => {
           
           <div class="text-center lg:w-10/12 w-full ">
 
-            <div>
-              <span className="bg-white p-1 rounded border-purple-800 font-semibold text-[#8247FF] text-lg">
-                👋 <span className="text-xs"> WELCOME TO MANAGE WISE!</span>
+            <div className="mb-6">
+              <span className="bg-white p-1.5  rounded border-purple-800 font-semibold text-[#8247FF] text-lg">
+                👋 <span className="text-xs pr-2 "> WELCOME TO MANAGE WISE!</span>
               </span>
             </div>
 
-            <h1 class="title-font sm:text-7xl text-5xl mb-4 font-medium text-gray-900">
+            <h1 class="title-font sm:text-7xl text-5xl mb-8 font-medium text-gray-900">
               Empower your business with{" "}
               <span className="text-[#FE8162]">Strategic</span> insights
             </h1>
 
             <p className="mb-8 leading-relaxed text-xl">
-              Powerful management platform designed to streamline your business
+              Powerful management platform designed to streamline your business <br/>
               operations, boost productivity, and drive success
             </p>
 
@@ -28,7 +28,7 @@ const Hero = () => {
               <button className=" text-white bg-[#8247FF] hover:border-[#d9c7ff] hover:border-4 py-4 px-7 focus:outline-none  rounded-2xl text-xl font-semibold ">
                 Get Started
               </button>
-              <button className=" bg-white border hover:border-2 py-4 px-7   rounded-2xl text-xl font-semibold ">
+              <button className=" bg-white border hover:border-2 hover:border-black py-4 px-7   rounded-2xl text-xl font-semibold ">
                 Watch Demo
               </button>
             </div>

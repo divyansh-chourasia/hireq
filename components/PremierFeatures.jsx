@@ -7,14 +7,14 @@ const PremierFeatures = () => {
         <p>
           <span className="bg-white border text-lg rounded-lg p-1">
             🔥
-            <span className="text-sm font-semibold text-[#8247FF] pr-1">
-              PREMIER FEATURES{" "}
-            </span>{" "}
+            <span className="text-xs font-bold text-[#8247FF] pr-1">
+              PREMIER FEATURES
+            </span>
           </span>
         </p>
-        <h1 className="text-6xl font-semibold">
-          Discover our product's{" "}
-          <span className="text-[#FE8162]">Capabilities</span>
+        <h1 className="md:text-6xl text-3xl font-semibold">
+          Discover our product's
+          <span className="text-[#FE8162]"> Capabilities</span>
         </h1>
         <p className="text-xl text-[#757576]">
           Don't settle for mediocrity - embrace the future of management with{" "}
@@ -30,7 +30,7 @@ const PremierFeatures = () => {
               <div class="flex-grow">
                 <span className="bg-white text-3xl p-2 rounded-3xl">⭐️</span>
 
-                <p class="font-medium leading-snug mt-6  text-5xl">
+                <p class="font-medium leading-snug mt-6  md:text-5xl">
                   Boost productivity and streamline workflow with us. Enjoy our
                   intuitive interface and robust features.
                 </p>
