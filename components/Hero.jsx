@@ -3,10 +3,10 @@ import React from "react";
 const Hero = () => {
   return (
     <main className="bg-gradient-to-b from-[#fdf2ec] via-transparent to-[rgb(255, 255, 255)]">
-      <section class="text-gray-600 body-font">
-        <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+      <section className="text-gray-600 body-font">
+        <div className="container mx-auto flex px-5 py-40 items-center justify-center flex-col">
           
-          <div class="text-center lg:w-10/12 w-full ">
+          <div className="text-center lg:w-10/12 w-full ">
 
             <div className="mb-6">
               <span className="bg-white p-1.5  rounded border-purple-800 font-semibold text-[#8247FF] text-lg">
@@ -14,7 +14,7 @@ const Hero = () => {
               </span>
             </div>
 
-            <h1 class="title-font sm:text-7xl text-5xl mb-8 font-medium text-gray-900">
+            <h1 className="title-font sm:text-7xl text-5xl mb-8 font-medium text-gray-900">
               Empower your business with{" "}
               <span className="text-[#FE8162]">Strategic</span> insights
             </h1>

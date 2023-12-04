@@ -4,8 +4,8 @@ import SingleReviewCard from "./SingleReviewCard";
 
 const Testimonials = () => {
   return (
-    <section>
-      <div class="  w-3/4 mx-auto py-8">
+    <section id="testimonials">
+      <div className="  w-3/4 mx-auto py-8">
         <div className="mb-4 ">
           <span className=" p-1 rounded border  font-semibold text-[#8247FF]">
              🧡
@@ -13,7 +13,7 @@ const Testimonials = () => {
           </span>
         </div>
 
-        <h1 class="title-font md:text-6xl text-3xl mb-6 font-medium ">
+        <h1 className="title-font md:text-6xl text-3xl mb-6 font-medium ">
           Hear from our <span className="text-[#FE8162]"> Satisfied </span>
           clients
         </h1>
